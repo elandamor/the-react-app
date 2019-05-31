@@ -16,6 +16,9 @@
 </div>
 
 ## License
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/11b96a314b074a46b3d8761f3102f54f)](https://app.codacy.com/app/elandamor/the-react-app?utm_source=github.com&utm_medium=referral&utm_content=elandamor/the-react-app&utm_campaign=Badge_Grade_Dashboard)
+
 This project is licensed under the MIT license, Copyright (c) 2018 - present, Thandolwethu Mpofu. For more information see `LICENSE.md`.
 
 ## Acknowledgements
