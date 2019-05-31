@@ -5,14 +5,17 @@ const OfflinePlugin = require('offline-plugin');
 const { HashedModuleIdsPlugin } = require('webpack');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
-const InlineChunkHtmlPlugin = require('../../utils/InlineChunkHtmlPlugin');
+const CompressionPlugin = require('compression-webpack-plugin');
+const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
+const RobotstxtPlugin = require('robotstxt-webpack-plugin');
+const WebpackBar = require('webpackbar');
 const paths = require('../paths');
 
 module.exports = merge(require('./webpack.base'), {
   mode: 'production',
 
   // In production, we skip all hot-reloading stuff
-  entry: [paths.appIndexJs],
+  entry: [require.resolve('react-app-polyfill/ie11'), paths.appIndexJs],
 
   // Utilize long-term caching by adding content hashes (not compilation hashes) to compiled assets
   output: {
@@ -23,52 +26,24 @@ module.exports = merge(require('./webpack.base'), {
   optimization: {
     minimize: true,
     minimizer: [
-      // This is only used in production mode
       new TerserPlugin({
         terserOptions: {
-          parse: {
-            // we want terser to parse ecma 8 code. However, we don't want it
-            // to apply any minfication steps that turns valid ecma 5 code
-            // into invalid ecma 5 code. This is why the 'compress' and 'output'
-            // sections only apply transformations that are ecma 5 safe
-            // https://github.com/facebook/create-react-app/pull/4234
-            ecma: 8,
-          },
+          warnings: false,
           compress: {
-            ecma: 5,
-            warnings: false,
-            // Disabled because of an issue with Uglify breaking seemingly valid code:
-            // https://github.com/facebook/create-react-app/issues/2376
-            // Pending further investigation:
-            // https://github.com/mishoo/UglifyJS2/issues/2011
             comparisons: false,
-            // Disabled because of an issue with Terser breaking valid code:
-            // https://github.com/facebook/create-react-app/issues/5250
-            // Pending futher investigation:
-            // https://github.com/terser-js/terser/issues/120
-            inline: 2,
           },
-          mangle: {
-            safari10: true,
-          },
+          parse: {},
+          mangle: true,
           output: {
-            ecma: 5,
             comments: false,
-            // Turned on because emoji and regex is not minified properly using default
-            // https://github.com/facebook/create-react-app/issues/2488
             ascii_only: true,
           },
         },
-        // Use multi-process parallel running to improve the build speed
-        // Default number of concurrent runs: os.cpus().length - 1
         parallel: true,
-        // Enable file caching
         cache: true,
+        sourceMap: true,
       }),
     ],
-    nodeEnv: 'production',
-    sideEffects: true,
-    concatenateModules: true,
     splitChunks: { chunks: 'all' },
     runtimeChunk: true,
   },
@@ -93,17 +68,14 @@ module.exports = merge(require('./webpack.base'), {
         minifyCSS: true,
         minifyURLs: true,
       },
+      inlineSource: /runtime~.+[.]js/,
     }),
 
-    new InlineChunkHtmlPlugin(HtmlWebpackPlugin, [/runtime~.+[.]js/]),
+    new HtmlWebpackInlineSourcePlugin(),
 
     // Put it in the end to capture all the HtmlWebpackPlugin's
     // assets manipulations and do leak its manipulations to HtmlWebpackPlugin
     new OfflinePlugin({
-      ServiceWorker: {
-        minify: false,
-      },
-
       relativePaths: false,
       publicPath: '/',
       appShell: '/',
@@ -114,22 +86,32 @@ module.exports = merge(require('./webpack.base'), {
 
       caches: {
         main: [':rest:'],
-        additional: [':externals:'],
-        optional: ['*.chunk.js'],
+
+        // All chunks marked as `additional`, loaded after main section
+        // and do not prevent SW to install. Change to `optional` if
+        // do not want them to be preloaded at all (cached only when first loaded)
+        additional: ['*.chunk.js'],
       },
 
       // Removes warning for about `additional` section usage
       safeToUseOptionalCaches: true,
+    }),
 
-      AppCache: false,
+    new RobotstxtPlugin(),
+
+    new CompressionPlugin({
+      algorithm: 'gzip',
+      test: /\.js$|\.css$|\.html$/,
+      threshold: 10240,
+      minRatio: 0.8,
     }),
 
     new WebpackPwaManifest({
-      name: 'React Boilerplate',
-      short_name: 'React BP',
-      description: 'My React Boilerplate-based project!',
-      background_color: '#fafafa',
-      theme_color: '#b1624d',
+      name: 'The React App',
+      short_name: 'TRA',
+      description: 'My React project!',
+      background_color: '#FAFAFA',
+      theme_color: '#2D68EE',
       start_url: '/?utm_source=a2hs',
       inject: true,
       ios: true,
@@ -151,6 +133,8 @@ module.exports = merge(require('./webpack.base'), {
       hashDigest: 'hex',
       hashDigestLength: 20,
     }),
+
+    new WebpackBar(),
   ],
 
   performance: {

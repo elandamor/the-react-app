@@ -1,26 +1,19 @@
 import React, { FC, useContext } from 'react';
-import classNames from 'classnames';
-import { StyledSystemProps } from 'styled-system';
 // Styles
-import Wrapper from './styles';
-import { useRouter } from '../../hooks';
-import GoBackButton from '../GoBackButton';
+import Box, { IBoxProps } from '../Box';
 import Inner from '../Inner';
-import { useTransition } from 'react-spring';
-import AnimatedWrapper from '../AnimatedWrapper';
-import Toggle from '../Toggle';
 import Flex from '../Flex';
+import GoBackButton from '../GoBackButton/Loadable';
+import Toggle from '../Toggle/Loadable';
 
-import sun from '@app/assets/sun.png';
-import moon from '@app/assets/moon.png';
-import { AppContext } from '@app/containers/App';
+import { AppThemeContext } from '@app/contexts';
+import { useRouter } from '@app/hooks';
+import { generic } from '@app/assets';
 
-// import { makeDebugger } from '../../utils';
+// import { makeDebugger } from '@app/utils';
 // const debug = makeDebugger('Header');
 
-interface IHeaderProps extends StyledSystemProps {
-  className?: string;
-};
+interface IHeaderProps extends IBoxProps {};
 
 /**
  * @render react
@@ -30,37 +23,29 @@ interface IHeaderProps extends StyledSystemProps {
  * <Header />
  */
 
-const Header: FC<IHeaderProps> = ({ className, ...rest }) => {
+const Header: FC<IHeaderProps> = (props) => {
   const { location } = useRouter();
-  const { darkMode, setDarkMode } = useContext(AppContext);
+  const { darkMode, setDarkMode } = useContext(AppThemeContext);
 
   const showBackButton = location.state && location.state.showBackButton;
-  const backButtonTrans = useTransition(showBackButton, null, {
-    from: { opacity: 0, transform: 'translateX(-64px)' },
-    enter: { opacity: 1, transform: 'translateX(0)'  },
-    leave: { opacity: 0, transform: 'translateX(-64px)'  },
-  });
+
+  const handleSetDarkMode = () => {
+    setDarkMode(!darkMode);
+  }
 
   return (
-    <Wrapper className={classNames('', className)} as="header" {...rest}>
+    // @ts-ignore
+    <Box as="header" {...props}>
       <Inner as={Flex}>
-        <Flex>
-          {
-            showBackButton && backButtonTrans.map(({ item, key, props }) =>
-              item && (
-                <AnimatedWrapper key={key} style={props}>
-                  <GoBackButton />
-                </AnimatedWrapper>
-              )
-            )
-          }
+        <Flex alignItems="center">
+          <GoBackButton show={showBackButton} />
         </Flex>
-        <Flex justifyContent="flex-end">
+        <Flex alignItems="center" justifyContent="flex-end">
           <Toggle
             icons={{
               checked: (
                 <img
-                  src={moon}
+                  src={generic.moon}
                   width="16"
                   height="16"
                   role="presentation"
@@ -69,7 +54,7 @@ const Header: FC<IHeaderProps> = ({ className, ...rest }) => {
               ),
               unchecked: (
                 <img
-                  src={sun}
+                  src={generic.sun}
                   width="16"
                   height="16"
                   role="presentation"
@@ -78,11 +63,11 @@ const Header: FC<IHeaderProps> = ({ className, ...rest }) => {
               ),
             }}
             checked={darkMode}
-            onChange={() => setDarkMode(!darkMode)}
+            onChange={handleSetDarkMode}
           />
         </Flex>
       </Inner>
-    </Wrapper>
+    </Box>
   );
 }
 

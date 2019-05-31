@@ -1,13 +1,12 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import { RouteComponentProps, withRouter } from 'react-router-dom';
-import { ThemeProvider } from 'styled-components';
 import { Normalize } from 'styled-normalize';
-import get from 'lodash/get';
-import merge from 'lodash/merge';
 // Components
-import { ErrorBoundary, Header, LoadingBar, Routes } from '@app/components';
+import ErrorBoundary from '@app/components/ErrorBoundary';
+import Header from '@app/components/Header';
+import Routes from '@app/components/Routes/Loadable';
 // Contexts
-import NetworkStatusProvider from '@app/contexts/networkStatus.context';
+import { AppProviders } from '@app/contexts';
 // Routes
 import routes from '@app/routes';
 // Styles
@@ -15,15 +14,10 @@ import { Wrapper } from './styles';
 
 import GlobalStyles from '@app/global-styles';
 
-import baseTheme from '@app/theme';
-import { useDarkMode } from '@app/hooks';
-
 // import { makeDebugger } from '@app/utils';
 // const debug = makeDebugger('App');
 
 export interface IAppProps extends RouteComponentProps {}
-
-export const AppContext = React.createContext({});
 
 /**
  * @render react
@@ -32,37 +26,19 @@ export const AppContext = React.createContext({});
  * contain code that should be seen on all pages. (e.g. navigation bar).
  */
 
-const App = () => {
-  const [darkMode, setDarkMode] = useDarkMode();
-
-  // Merge the color mode with the base theme to create a new theme object
-  const getTheme = (mode: string) => merge({}, baseTheme, {
-    colors: get(baseTheme.colors.modes, mode, baseTheme.colors),
-    isDark: true,
-  })
-
-  const theme = darkMode ? getTheme('dark') : baseTheme;
-
-  return (
-    <ThemeProvider theme={theme}>
-      <NetworkStatusProvider>
-        <AppContext.Provider value={{ darkMode, setDarkMode }}>
-          <Wrapper>
-            <Normalize />
-            <GlobalStyles />
-            <ErrorBoundary>
-              <Header alignItems="center" flex="none" />
-            </ErrorBoundary>
-            <ErrorBoundary>
-              <Suspense fallback={<LoadingBar />}>
-                <Routes routes={routes} />
-              </Suspense>
-            </ErrorBoundary>
-          </Wrapper>
-        </AppContext.Provider>
-      </NetworkStatusProvider>
-    </ThemeProvider>
-  );
-}
+const App = () => (
+  <AppProviders>
+    <Wrapper>
+      <Normalize />
+      <GlobalStyles />
+      <ErrorBoundary>
+        <Header />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Routes routes={routes} />
+      </ErrorBoundary>
+    </Wrapper>
+  </AppProviders>
+);
 
 export default withRouter(App);

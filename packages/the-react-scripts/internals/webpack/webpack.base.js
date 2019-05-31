@@ -6,11 +6,8 @@ const webpack = require('webpack');
 const resolve = require('resolve');
 const Dotenv = require('dotenv-webpack');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
-const createStyledComponentsTransformer = require('typescript-plugin-styled-components')
-  .default;
 const paths = require('../paths');
-
-const styledComponentsTransformer = createStyledComponentsTransformer();
+const typescriptFormatter = require('../../utils/typescriptFormatter');
 
 module.exports = {
   output: {
@@ -25,13 +22,12 @@ module.exports = {
         exclude: /node_modules/,
         use: [
           {
-            loader: 'ts-loader',
+            loader: 'babel-loader',
             options: {
-              // disable type checker - we will use it in fork plugin
-              transpileOnly: true,
-              getCustomTransformers: () => ({
-                before: [styledComponentsTransformer],
-              }),
+              customize: require.resolve(
+                'babel-preset-react-app/webpack-overrides'
+              ),
+              cacheDirectory: true,
             },
           },
         ],
@@ -74,18 +70,12 @@ module.exports = {
       },
     ],
   },
-  // optimization: options.optimization || {},
   plugins: [
-    new webpack.ProvidePlugin({
-      // make fetch available
-      fetch: 'exports-loader?self.fetch!whatwg-fetch',
-    }),
     // Always expose NODE_ENV to webpack, in order to use `process.env.NODE_ENV`
-    // inside your code for any environment checks.
-    new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: JSON.stringify(process.env.NODE_ENV),
-      },
+    // inside your code for any environment checks; Terser will automatically
+    // drop any unreachable code.
+    new webpack.EnvironmentPlugin({
+      NODE_ENV: 'development',
     }),
     new Dotenv({
       path: paths.dotenv,
@@ -97,6 +87,7 @@ module.exports = {
       useTypescriptIncrementalApi: true,
       checkSyntacticErrors: true,
       tsconfig: paths.appTsConfig,
+      tslint: true,
       reportFiles: [
         '**',
         '!**/*.json',
@@ -105,7 +96,7 @@ module.exports = {
         '!**/src/setupTests.*',
       ],
       watch: paths.appSrc,
-      silent: true,
+      formatter: typescriptFormatter,
     }),
   ],
   resolve: {

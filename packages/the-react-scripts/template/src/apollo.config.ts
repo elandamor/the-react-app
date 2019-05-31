@@ -1,29 +1,46 @@
 import { ApolloClient } from 'apollo-client';
 import { ApolloLink } from 'apollo-link';
-import { InMemoryCache } from 'apollo-cache-inmemory';
+import { InMemoryCache, NormalizedCacheObject } from 'apollo-cache-inmemory';
 import { HttpLink } from 'apollo-link-http';
 import { persistCache } from 'apollo-cache-persist';
-import localForage from 'localforage';
+import { PersistentStorage, PersistedData } from 'apollo-cache-persist/types';
+import { RetryLink } from 'apollo-link-retry';
 
-import { API_URI } from '@app/constants';
+import { GRAPHQL_ENDPOINT, NODE_ENV } from '@app/constants';
 
 const cache = new InMemoryCache();
 
 const httpLink = new HttpLink({
-  uri: API_URI,
+  uri: GRAPHQL_ENDPOINT,
 });
 
-const devHttpLink = ApolloLink.from([httpLink]);
+const retryLink = new RetryLink();
+
+let clientLink = ApolloLink.from([
+  retryLink,
+  httpLink,
+]);
+
+if (NODE_ENV === 'development') {
+  import('./utils/apollo-utilities')
+  .then((module) => {
+    clientLink = ApolloLink.from([
+      module.loggerLink,
+      module.errorLink,
+      retryLink,
+      httpLink,
+    ]);
+  });
+}
 
 persistCache({
   cache,
-  // @ts-ignore
-  storage: localForage,
+  storage: window.localStorage as PersistentStorage<PersistedData<NormalizedCacheObject>>,
 });
 
 const client = new ApolloClient({
   cache,
-  link: devHttpLink,
+  link: clientLink,
 });
 
 export default client;
