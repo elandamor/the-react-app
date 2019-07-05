@@ -28,7 +28,9 @@
   },
   "sideEffects": "false",
   "scripts": {
-    "storybook": "start-storybook -p 9009 -c ./template/.storybook"
+    "storybook": "start-storybook -p 9009 -c ./template/.storybook",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@babel/core": "7.4.5",
@@ -139,7 +141,8 @@
     "webpack-merge": "4.2.1",
     "webpack-pwa-manifest": "4.0.0",
     "whatwg-fetch": "3.0.0",
-    "workbox-webpack-plugin": "4.3.1"
+    "workbox-webpack-plugin": "4.3.1",
+    "snyk": "^1.192.0"
   },
   "devDependencies": {
     "apollo-cache-inmemory": "1.6.0",
@@ -185,5 +188,6 @@
       "stylelint-config-recommended",
       "stylelint-config-styled-components"
     ]
-  }
+  },
+  "snyk": true
 }

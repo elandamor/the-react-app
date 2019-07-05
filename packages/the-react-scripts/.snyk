@@ -1,0 +1,1636 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - webpack-bundle-analyzer > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - stylelint > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - lint-staged > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest-dom > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - html-webpack-plugin > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - eslint-plugin-import > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - eslint-import-resolver-webpack > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - eslint > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@babel/core > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - lint-staged > yup > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - babel-eslint > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - eslint > table > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - babel-preset-react-app > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > babel-plugin-react-docgen > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - source-map-loader > async > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@babel/core > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - stylelint > table > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - node-plop > inquirer > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - eslint > inquirer > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/addon-knobs > react-color > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - stylelint-processor-styled-components > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - ngrok > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - babel-preset-react-app > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@babel/core > @babel/traverse > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > babel-preset-react-app > @babel/core > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > react-dev-utils > inquirer > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - plop > node-plop > inquirer > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @storybook/core > inquirer > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @storybook/core > html-webpack-plugin > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @storybook/core > babel-preset-minify > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/addon-knobs > react-color > reactcss > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - stylelint-processor-styled-components > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > babel-preset-react-app > @babel/core > @babel/generator > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - babel-preset-react-app > @babel/preset-env > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @babel/plugin-transform-react-constant-elements > @babel/helper-annotate-as-pure > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > babel-plugin-react-docgen > react-docgen > async > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - stylelint-processor-styled-components > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @storybook/core > react-dev-utils > inquirer > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @storybook/core > babel-preset-minify > babel-plugin-minify-dead-code-elimination > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > react-resize-detector > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @storybook/core > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > babel-preset-react-app > @babel/core > @babel/generator > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @storybook/core > @babel/plugin-transform-react-constant-elements > @babel/helper-annotate-as-pure > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - stylelint-processor-styled-components > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @babel/core > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @storybook/core > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > babel-preset-react-app > @babel/plugin-transform-classes > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @babel/core > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/addon-knobs > react-select > emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-resolve-dependencies > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > babel-jest > @types/babel__core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-function-name > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > babel-jest > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/addon-knobs > @storybook/components > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/transform > @babel/core > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > babel-jest > @types/babel__core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @svgr/webpack > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > babel-preset-react-app > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - babel-preset-react-app > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > @jest/transform > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > babel-jest > babel-preset-jest > babel-plugin-jest-hoist > @types/babel__traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > babel-jest > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/addon-knobs > @storybook/components > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-object-super > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > babel-jest > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > babel-preset-react-app > @babel/preset-env > @babel/plugin-transform-object-super > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - babel-preset-react-app > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/components > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > babel-jest > babel-preset-jest > babel-plugin-jest-hoist > @types/babel__traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > babel-jest > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-jasmine2 > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > @babel/core > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > babel-jest > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > babel-jest > babel-preset-jest > babel-plugin-jest-hoist > @types/babel__traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > babel-jest > babel-preset-jest > babel-plugin-jest-hoist > @types/babel__traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > babel-jest > @jest/transform > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > babel-preset-react-app > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @svgr/webpack > @svgr/core > @svgr/plugin-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/components > @storybook/router > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > babel-jest > babel-preset-jest > babel-plugin-jest-hoist > @types/babel__traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - webpack-merge > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > babel-jest > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-snapshot > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > babel-jest > babel-preset-jest > babel-plugin-jest-hoist > @types/babel__traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/components > @storybook/router > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > babel-jest > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > babel-jest > babel-preset-jest > babel-plugin-jest-hoist > @types/babel__traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > babel-jest > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
+    - jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-05T03:18:00.196Z'
