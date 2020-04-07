@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "lerna": "^3.20.2",
-    "prettier": "2.0.2"
+    "prettier": "2.0.4"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
