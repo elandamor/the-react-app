@@ -2356,12 +2356,12 @@
     magic-string "^0.25.2"
     resolve "^1.11.0"
 
-"@rollup/plugin-json@4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-json/-/plugin-json-4.0.2.tgz#482185ee36ac7dd21c346e2dbcc22ffed0c6f2d6"
-  integrity sha512-t4zJMc98BdH42mBuzjhQA7dKh0t4vMJlUka6Fz0c+iO5IVnWaEMiYBy1uBj9ruHZzXBW23IPDGL9oCzBkQ9Udg==
+"@rollup/plugin-json@4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-json/-/plugin-json-4.0.3.tgz#747e2c2884c5a0fa00b66c9c0f3f1012cddca534"
+  integrity sha512-QMUT0HZNf4CX17LMdwaslzlYHUKTYGuuk34yYIgZrNdu+pMEfqMS55gck7HEeHBKXHM4cz5Dg1OVwythDdbbuQ==
   dependencies:
-    "@rollup/pluginutils" "^3.0.4"
+    "@rollup/pluginutils" "^3.0.8"
 
 "@rollup/plugin-node-resolve@7.1.1":
   version "7.1.1"
@@ -2385,7 +2385,7 @@
     is-module "^1.0.0"
     resolve "^1.14.2"
 
-"@rollup/pluginutils@^3.0.0", "@rollup/pluginutils@^3.0.4", "@rollup/pluginutils@^3.0.6", "@rollup/pluginutils@^3.0.8":
+"@rollup/pluginutils@^3.0.0", "@rollup/pluginutils@^3.0.6", "@rollup/pluginutils@^3.0.8":
   version "3.0.9"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-3.0.9.tgz#aa6adca2c45e5a1b950103a999e3cddfe49fd775"
   integrity sha512-TLZavlfPAZYI7v33wQh4mTP6zojne14yok3DNSLcjoG/Hirxfkonn6icP5rrNWRn8nZsirJBFFpijVOJzkUHDg==
@@ -15718,11 +15718,6 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
   dependencies:
     hash-base "^3.0.0"
     inherits "^2.0.1"
-
-rollup-plugin-analyzer@3.2.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-analyzer/-/rollup-plugin-analyzer-3.2.2.tgz#1ea109d164ac8cdbfeaacf1cf271bb66ca643d94"
-  integrity sha512-rRNOaykvnniNmByeaYuhrnMSwAmYduvGy1q2rBchRjGL/bEtEVr2WogKMQ0po8QbnwcsYaiQacYFxsvGTnw6Iw==
 
 rollup-plugin-peer-deps-external@2.2.2:
   version "2.2.2"
