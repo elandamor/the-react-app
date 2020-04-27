@@ -26,7 +26,7 @@
     "plop": "2.6.0"
   },
   "optionalDependencies": {
-    "fsevents": "2.1.2"
+    "fsevents": "2.1.3"
   },
   "resolutions": {
     "minimist": "1.2.5"
