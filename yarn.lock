@@ -3311,10 +3311,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-table@7.0.10":
-  version "7.0.10"
-  resolved "https://registry.yarnpkg.com/@types/react-table/-/react-table-7.0.10.tgz#8742cd76dfaf9857580698ca4d3a852b32377d0b"
-  integrity sha512-kpUiIlGUpHn4D/0xcLqHEQ0M8Tbg6pbgZqXBDejfn1oBK2cjnOaZKLlqPrh5poIRp8JMJrOv2UWDCRiXARUGBA==
+"@types/react-table@7.0.17":
+  version "7.0.17"
+  resolved "https://registry.yarnpkg.com/@types/react-table/-/react-table-7.0.17.tgz#95628adcebcbd4c66f6da33d9177b82436822052"
+  integrity sha512-4C5w0FQTfE/jwAl1qI58ndOL9SEqfVQN8JP+SggPXpKUzwy/7Gmat7OgjITkw+VQ85tCySRFif3HBqo04h0mDA==
   dependencies:
     "@types/react" "*"
 
