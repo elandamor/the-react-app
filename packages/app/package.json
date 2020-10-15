@@ -26,7 +26,7 @@
     "@types/react-router-dom": "5.1.5",
     "apollo-cache-persist": "0.1.1",
     "formik": "2.1.5",
-    "framer-motion": "2.6.13",
+    "framer-motion": "2.9.1",
     "lodash": "4.17.20",
     "react-feather": "2.0.8",
     "react-helmet": "6.1.0",
